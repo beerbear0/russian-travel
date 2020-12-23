@@ -2,7 +2,7 @@
 .lead__image {
     background-image: url(../../../sprint-3-images/lead-polka.jpg);
     background-size: 100% 100%;
-    max-width: 984px;
+    max-width: 100%;
     height: 615px;
     margin: 64px 0 0 0;
 }

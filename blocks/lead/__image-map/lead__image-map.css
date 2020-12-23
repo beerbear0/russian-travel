@@ -1,6 +1,8 @@
 .lead__image-map{
-    max-width: 937px;
+    max-width: 100%;
     max-height: 263px;
-    padding: 90px 23px 262px 23px;
-
+    margin-top: 90px;
+    margin-bottom: 262px;
+    margin-left: 23px;
+    margin-right: 23px;
 }
