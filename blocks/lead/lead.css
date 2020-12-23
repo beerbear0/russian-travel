@@ -1,0 +1,14 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__image-map/lead__image-map.css);
+@import url(./__caption/lead__caption.css);
+
+.lead {
+  margin: 56px auto 92px  auto;
+  max-width: 984px;
+  max-height: 1005px;
+  display: flex;
+  flex-direction: column;
+}
+
