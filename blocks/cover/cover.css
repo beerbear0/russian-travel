@@ -1,0 +1,11 @@
+@import url(./__overlay/cover__overlay.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover{
+    max-width: 1184px;
+    height: 740px;
+    background-image: url(../../sprint-3-images/cover-trains.jpg);
+    background-size: 100% 100%;
+    margin: 92px auto 0 auto;
+}
