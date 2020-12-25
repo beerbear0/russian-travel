@@ -6,8 +6,17 @@
   margin: 28px 48px 0 48px;
   max-width: 1184px;
   height: 52px;
-  display: flex;
-  justify-content: space-between;
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header {
+    margin-left: 16px;
+    margin-right: 16px;
+  }

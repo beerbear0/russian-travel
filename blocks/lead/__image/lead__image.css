@@ -6,3 +6,13 @@
     height: 615px;
     margin: 64px 0 0 0;
 }
+
+@media screen and (max-width: 768px) {
+    .lead__image{
+         height: 480px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__image {
+        height: 200px;
+    }

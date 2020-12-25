@@ -6,3 +6,19 @@
     margin-left: 23px;
     margin-right: 23px;
 }
+@media screen and (max-width: 768px) {
+    .lead__image-map{
+        width: 731px;
+        height: 205px;
+        margin: 70px 18px 204px 18px;
+    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image-map {
+        width: 304px;
+        height: 85px;
+        margin: 29px 7px 85px 7px;
+    }
+    }

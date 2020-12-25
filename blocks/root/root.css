@@ -4,4 +4,28 @@
     margin: 0 auto;
     background-color: #2A2C2F;
     font-family: 'Inter', 'sans-serif';
-  }
+}
+
+@media screen and (max-width: 1024px) {
+    .root {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .root {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .root {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    
+}

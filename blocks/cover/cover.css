@@ -9,3 +9,16 @@
     background-size: 100% 100%;
     margin: 92px auto 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+    .cover {
+        height: 480px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover {
+        height: 200px;
+        margin-top: 66px;
+
+    }
+}
