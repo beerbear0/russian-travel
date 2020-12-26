@@ -9,3 +9,7 @@
     color: #FFFFFF;
   
   }
+
+.header__lang-link:last-child {
+  text-decoration: none;
+   }
