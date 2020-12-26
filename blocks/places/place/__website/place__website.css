@@ -13,12 +13,12 @@
 .place__website_margin {
     margin-top: 20px;
 }
-@media screen and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
     .place__website {
-        margin-top: 0;
+        display: none;
     }
 }
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 425px) {
     .place__website {
         display: none;
     }

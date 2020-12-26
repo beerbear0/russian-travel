@@ -22,7 +22,7 @@
     
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 425px) {
     .root {
         max-width: 320px;
         margin: 0 auto;

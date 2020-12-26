@@ -4,7 +4,7 @@
     margin: 0 0 0 40px;
    
 }
-@media screen and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
     .place__website-paragraph {
         margin-left: 28px;
     }
@@ -12,10 +12,11 @@
         margin-top: 46px;
     }
 }
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 425px) {
     .place__website-paragraph {
         margin-top: 0;
         margin-left: 16px;
         margin-right: 16px;
+        
     }
 }
