@@ -12,6 +12,14 @@
     margin: 92px auto 0 auto;
 }
 
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .cover {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
 @media (min-width: 425px) and (max-width: 768px) {
 .cover {
     height: 480px;
