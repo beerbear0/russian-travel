@@ -7,19 +7,6 @@
 @import url(../place/__paragraph/place__paragraph.css);
 
 .place {
-    display: flex;
-    min-height: 584px;
-}
-@media (min-width: 425px) and (max-width: 768px) {
-    .place  {
-        flex-direction: column;
-        max-height: 1fr;
-        
-    }
-  }
-@media (min-width: 320px) and (max-width: 425px) {
-    .place  {
-        flex-direction: column;
-        max-height: 1fr;
-    }
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
 }

@@ -6,26 +6,6 @@
     max-width: 984px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5,1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: 80px;
-}
-
-@media (min-width: 425px) and (max-width: 768px) {
-    .places{
-        gap: 73px;
-        margin-left: 24px;
-        margin-right: 24px;
-        justify-content: center;
-    }
-}
-@media (min-width: 320px) and (max-width: 425px) {
-    .places{
-        gap: 49px;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 64px;
-        grid-template-columns: 320px;
-        grid-template-rows: 964px 964px 930px 880px 880px;
-        justify-content: center;
-    }
 }
