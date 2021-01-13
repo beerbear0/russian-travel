@@ -7,7 +7,6 @@
 .lead {
   margin: 0 0 0 0;
   max-width: 984px;
-  max-height: 1005px;
   display: flex;
   flex-direction: column;
 }

@@ -1,13 +1,11 @@
 
 .place__website {
-    margin-top: 100px;
     margin-bottom: 48px;
-    margin-right: 48px;
     margin-left: 0;
     max-width: 456px;
-    max-height: 46px;
     display: flex;
     flex-direction: column;
+
 }
 
 .place__website_margin {
