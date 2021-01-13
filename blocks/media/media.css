@@ -1,4 +1,4 @@
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .root {
     max-width: 1024px;
     margin: 0 auto;
@@ -7,9 +7,16 @@
     margin-left: 48px;
     margin-right: 48px;
   }
+  .lead {
+    max-width: 928px;
+  }
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows:   repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .place {
+    max-width: 928px;
+    gap: 40px;
   }
   .cover {
     min-height: 640px;
@@ -20,9 +27,9 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-   .root {
-      max-width: 768px;   
+@media (min-width: 768px) and (max-width: 1023px) {
+  .root {
+    max-width: 768px;   
   }
   .header {
     margin-left: 48px;
@@ -32,6 +39,13 @@
     max-width: calc(100% - 44px);
     max-height: calc(100% - 332px);
     margin: 85px 22px 257px 22px;
+  }
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .place {
+    gap: 32px;
   }
   .place__image {
     max-width: 440px;
@@ -46,14 +60,14 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
     .header {
       margin-left: 24px;
       margin-right: 24px;
     }
     .lead__title {
-      font-size: 70px;
-      line-height: 1.2; 
+      font-size: 54px;
+      line-height: 58px; 
     }
      .lead__image-map {
         max-width: calc(100% - 36px);
@@ -71,6 +85,7 @@
       max-width: 720px;
     }
     .photo-grid {
+      grid-template-columns: 1fr;
       margin: 0 24px;
     }
     .places{
@@ -140,7 +155,7 @@
     }
 }
   
-  @media (min-width: 320px) and (max-width: 425px) {
+  @media (min-width: 320px) and (max-width: 424px) {
     .root {
       max-width: 320px;   
     }
@@ -176,6 +191,7 @@
       line-height: 35px;
     }
     .photo-grid {
+      grid-template-columns: 1fr;
       margin: 0 16px;
     }
     .places{
