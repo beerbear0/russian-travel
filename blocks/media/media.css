@@ -17,6 +17,9 @@
     max-height: calc(100% - 332px);
     margin: 85px 22px 257px 22px;
   }
+  .intro {
+    margin-left: 28px;
+  }
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
