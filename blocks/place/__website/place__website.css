@@ -5,7 +5,9 @@
     max-width: 456px;
     display: flex;
     flex-direction: column;
-
+}
+.place__website:nth-child(2) {
+  margin-top: 70px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .place__website {
