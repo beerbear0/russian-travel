@@ -1,0 +1,10 @@
+.footer__links-li {
+    list-style: none;
+    margin: 0 18px 0 0;
+    padding-left: 0;
+    text-align: left;
+  }
+  .footer__links-li:last-child {
+    margin-right: 0;
+  }
+  

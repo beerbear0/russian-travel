@@ -1,5 +1,7 @@
 @import url(./__link/footer__link.css);
 @import url(./__author/footer__author.css);
+@import url(./__links-ul/footer__links-ul.css);
+@import url(./__links-li/footer__links-li.css);
 
 .footer {
     max-width: 1184px;
@@ -8,18 +10,4 @@
     justify-content: space-between;
     
 }
-.footer__links-ul {
-  display: flex;
-  padding-left: 0;
-  margin: 0;
-  text-align: left;
-}
-.footer__links-li {
-  list-style: none;
-  margin: 0 18px 0 0;
-  padding-left: 0;
-  text-align: left;
-}
-.footer__links-li:last-child {
-  margin-right: 0;
-}
+
