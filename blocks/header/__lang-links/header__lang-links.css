@@ -4,3 +4,11 @@
     padding-left: 0;
     margin-left: 0;
   }
+
+   
+  @media (min-width: 320px) and (max-width: 424px) {
+    .header__lang-links {
+       margin-top: 14px;
+       margin-bottom: 8px;
+    }
+  }

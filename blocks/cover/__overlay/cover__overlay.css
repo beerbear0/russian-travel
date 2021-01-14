@@ -11,3 +11,23 @@
 .cover__overlay:hover {
     background-color: rgba(42, 44, 47, 0.7);
 }
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .cover__overlay {
+      min-height: 640px;
+    }
+  }
+  
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+    .cover__overlay {
+      min-height: 480px;
+    }
+}
+@media (min-width: 320px) and (max-width: 424px) {
+  .cover__overlay {
+    min-height: 200px;
+  }

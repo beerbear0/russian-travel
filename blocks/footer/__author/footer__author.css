@@ -6,3 +6,15 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+
+
+  
+@media (min-width: 320px) and (max-width: 424px) {
+ 
+    .footer__author {
+      margin-top: 48px;
+      text-align: left;
+    }
+}
+

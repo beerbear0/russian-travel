@@ -1,9 +1,35 @@
-@import url(./__title/intro__title.css);
-@import url(./__text/intro__text.css);
-@import url(./__list/intro__list.css);
-@import url(./__list-span/intro__list-span.css);
 
 .intro {
     margin: 92px 0 0 0;
     max-width: 690px;
 } 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  
+    .intro {
+      margin-left: 28px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+ 
+    .intro {
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+    .intro {
+      margin-left: 24px;
+      margin-right: 24px;
+      max-width: 720px;
+    }
+}
+@media (min-width: 320px) and (max-width: 424px) {
+   
+    .intro {
+      margin-top: 64px;
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-bottom: 64px;
+    }
+}

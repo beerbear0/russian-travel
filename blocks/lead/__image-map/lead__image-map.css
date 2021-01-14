@@ -6,3 +6,34 @@
     margin-left: 23px;
     margin-right: 23px;
 }
+@media (min-width: 1024px) and (max-width: 1279px) {
+  
+  .lead__image-map {
+    max-width: calc(100% - 44px);
+    max-height: calc(100% - 332px);
+    margin: 85px 22px 257px 22px;
+  } 
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead__image-map {
+    max-width: calc(100% - 44px);
+    max-height: calc(100% - 332px);
+    margin: 85px 22px 257px 22px;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .lead__image-map {
+     max-width: calc(100% - 36px);
+     max-height: calc(100% - 274px);
+     margin: 70px 18px 204px 18px;
+ }
+}
+@media (min-width: 320px) and (max-width: 424px) {
+   
+    .lead__image-map {
+      width: 304px;
+      height: 85px;
+      margin: 29px 7px 85px 7px;
+    }
+}

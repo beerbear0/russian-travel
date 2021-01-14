@@ -11,3 +11,20 @@
     
 }
 
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .footer {
+      margin-left: 24px;
+      margin-right: 24px;
+      margin-top: 64px;
+      flex-direction: column;
+    }
+}
+@media (min-width: 320px) and (max-width: 424px) {
+  
+    .footer {
+      margin-left: 16px;
+      flex-direction: column;
+      margin-top: 64px;
+    }
+}
