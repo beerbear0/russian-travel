@@ -3,6 +3,13 @@
     flex-direction: column;
     margin: 100px 0 0 0;
 }
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .place__website-paragraph {
+    margin-left: 28px;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 424px) {
 
     .place__website-paragraph {
@@ -10,9 +17,4 @@
       margin-left: 16px;
       margin-right: 16px;
     }
-}
-@media (min-width: 425px) and (max-width: 767px) {
-  .place__website-paragraph {
-    margin-left: 28px;
-  }
 }
