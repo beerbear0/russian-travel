@@ -4,6 +4,11 @@
     margin: 30px 0 0 0;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place__website-paragraph {
+    margin-top: 0;
+  }
+}
 @media (min-width: 425px) and (max-width: 767px) {
   .place__website-paragraph {
     margin-left: 28px;
