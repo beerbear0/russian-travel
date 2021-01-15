@@ -1,16 +1,17 @@
 
 .place {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    gap: 40px;
+    grid-auto-columns: 1fr 1fr;
+    row-gap: 48px;
+    column-gap: 40px;
+    margin: 0 auto;
 }
+
 
 @media (min-width: 1024px) and (max-width: 1279px) {
  
     .place {
       max-width: 928px;
-      
     }
 }
 
@@ -18,7 +19,6 @@
  
     .place {
       max-width: 720px;
-      margin: 0 auto;
       gap: 28px;
     }
 }
@@ -26,9 +26,6 @@
     
     .place  {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(2, 1fr);
       gap: 32px;
-      max-height: 1fr;
-      position: relative;
     }
 }
